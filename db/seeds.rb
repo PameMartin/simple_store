@@ -20,7 +20,7 @@ products.each do |product|
   category = Category.find_or_create_by(name: product["category"])
   if category && category.valid?
     new_product = category.product.create(
-      name: product["name"],
+      title: product["name"],
       price: product["price"],
       description: product["description"],
       stock_quantity: product["stock quantity"]
