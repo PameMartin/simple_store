@@ -23,3 +23,6 @@ Things you may want to cover:
 
 * ...
 # simple_store
+
+# Link to my repository 
+- https://github.com/PameMartin/simple_store
